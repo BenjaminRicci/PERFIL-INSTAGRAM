@@ -1,0 +1,175 @@
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/papel-pergamino-pergamino-blanco-retro-vintage_53876-41731.jpg);
+    background-repeat: no-repeat;
+    background-size: 50000px;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0%;
+    color: var(--colorBlanco);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#infodata {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#infodata .datos {
+    text-align: center;
+}
+
+.textonombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--colorBlanco);
+    padding-left: 0px;
+    padding-top: 21px;
+}
+
+.num{
+    text-decoration: none;
+    color: var(--colorBlanco);
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nom{
+    text-decoration: none;
+    color: var(--colorBlanco);
+    font-size: 13px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img {
+    width: 30px;
+    height: 30px;
+    padding-left: 0%;
+}
+
+.img2 {
+    width: 115px;
+    height: 115px;
+    float: left; 
+    padding-bottom: 0px;  
+    padding-left: 0px;
+}
+
+.img3 {
+    width: 50px;
+    height: 50px;
+    float: left; 
+    padding-top: 10px;  
+    padding-left: 0px;  
+}
+
+.jaja {
+    width: 50000000px;
+    height: 150px;
+    float: top;
+    
+}
+
+.logo{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.logo2{
+    float: right;
+    width: 40px;
+    height: 22px;
+}
+
+.logo3{
+    float: left;
+    width: 15px;
+    height: 25px;
+}
+
+
+.p {
+    color: var(--colorBordo);
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#z {
+    color: var(--colorBlanco);  
+    font-size: 35px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--colorBordo);
+}
+
+:root {
+    --colorBlanco: white;
+    --colorBordo: rgb(112, 0, 0);
+    --colorFondo: rgb(66, 66, 66);
+}
+
+#infodata .datos {
+    text-align: center;
+}
+.nose {
+    text-align: center;
+}
+
+.infodata {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton{
+    justify-content: space-around;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    bottom: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--colorFondo);
+    color: var(--colorBlanco);
+    width: 49%;
+}
+
+#eti{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#eti .fot{
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#fotos .fotoos{
+    padding: 1px;
+    width: 32.78%;
+    height: 32.8vw;
+}
+.fotoos img {
+    width: 100%;    
+    height: 100%;
+}
+
+@media (min-width: 600px) {
+    header {
+        display: none;
+    }
+}
